@@ -73,7 +73,7 @@ input[type="checkbox"]:before{
     height: 24px;
     width: 24px;
     border-radius: 50%;
-    top:90px;
+    top:89.5px;
     left: 99px;
     background-color: hsl(240, 78%, 98%);
     transition: 0.5s;
@@ -240,11 +240,17 @@ hr{
     }
 
     .vertical{
+        position: relative;
+        top:-120px;
         height: 1750px;
     }
     
-    .top, .bottom{
+    .top{
         z-index: -5;
+    }
+
+    .bottom{
+        display: none;
     }
 
     .switch{
