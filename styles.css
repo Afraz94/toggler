@@ -235,7 +235,7 @@ hr{
 
 @media only screen and (max-width: 600px) {
     .switch{
-        left:40.5%
+        left:50%
     }
     
     .swiper.mySwiper{
@@ -255,8 +255,7 @@ hr{
         height: 1450px;
         width: 275px;
         top:-60px;
-        /* top:-100px; */
-        left:-32px;
+        left:50%;
     }
 
     .white,.non-white{
