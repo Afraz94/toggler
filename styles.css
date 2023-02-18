@@ -246,17 +246,13 @@ hr{
         background: none;
     }
 
-    .swiper.swiperTwo{
+     .swiper.swiperTwo{
         display: block;
         position: absolute;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         height: 1450px;
         width: 275px;
         top:-60px;
-        left:50vw;
-        transform: translateX(-50%);
+        margin:0 auto;
     }
 
     .white,.non-white{
