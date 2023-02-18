@@ -8,7 +8,7 @@
 }
   
 body{
-    background-color: hsl(240, 78%, 98%);
+    background: hsl(240, 78%, 98%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +29,7 @@ body{
 
 .container{
     width: 100%;
-    margin: 150px auto;
+    margin: 150px auto 0 auto;
     overflow: hidden;
 }
 
@@ -73,7 +73,7 @@ input[type="checkbox"]:before{
     height: 24px;
     width: 24px;
     border-radius: 50%;
-    top:89px;
+    top:90px;
     left: 99px;
     background-color: hsl(240, 78%, 98%);
     transition: 0.5s;
@@ -226,15 +226,24 @@ hr{
 }
 
 .vertical{
-        display:none;
-    }
+    display:none;
+}
 
 .swiper-3d .swiper-slide-shadow-left, .swiper-3d .swiper-slide-shadow-right  {
     background-image: none;
 }
 
 @media only screen and (max-width: 600px) {
-    .top,.bottom{
+    
+    .container{
+        margin-bottom: 0;
+    }
+
+    .vertical{
+        height: 1750px;
+    }
+    
+    .top, .bottom{
         z-index: -5;
     }
 
@@ -251,7 +260,6 @@ hr{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height:100%;
     }
 
     .white,.non-white{
