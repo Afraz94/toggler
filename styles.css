@@ -248,14 +248,15 @@ hr{
 
     .swiper.swiperTwo{
         display: block;
-        position: relative;
+        position: absolute;
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: 1450px;
         width: 275px;
         top:-60px;
-        left:25%;
+        left:50%;
+        transform: translateX(-50%);
     }
 
     .white,.non-white{
