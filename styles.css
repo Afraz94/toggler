@@ -73,7 +73,7 @@ input[type="checkbox"]:before{
     height: 24px;
     width: 24px;
     border-radius: 50%;
-    top:90px;
+    top:89px;
     left: 99px;
     background-color: hsl(240, 78%, 98%);
     transition: 0.5s;
