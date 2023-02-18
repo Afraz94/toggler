@@ -234,10 +234,6 @@ hr{
 }
 
 @media only screen and (max-width: 600px) {
-    body{
-        overflow: hidden;
-    }
-
     .switch{
         left:40.5%
     }
