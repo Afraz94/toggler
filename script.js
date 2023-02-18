@@ -45,25 +45,3 @@ $("body").keydown(function(e){
    }
   }
 });
-
-var swiper = new Swiper(".swiperTwo", {
-  scrollbar: ".swiper-scrollbar",
-  effect: "coverflow",
-  direction: "vertical",
-  loop: false,
-  slideToClickedSlide: true,
-  grabCursor: true,
-  centeredSlides: true,
-  initialSlide:	1,
-   keyboard: {
-        enabled: true,
-      },
-  slidesPerView:3,
-  coverflowEffect: {
-    rotate: -5,
-    stretch: 270,
-    depth: 100,
-    modifier: 1,
-    slideShadows: false
-  },
-});
