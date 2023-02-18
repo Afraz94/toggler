@@ -73,7 +73,7 @@ input[type="checkbox"]:before{
     height: 24px;
     width: 24px;
     border-radius: 50%;
-    top:89px;
+    top:90px;
     left: 99px;
     background-color: hsl(240, 78%, 98%);
     transition: 0.5s;
@@ -225,7 +225,7 @@ hr{
     transition: 0.45s;
 }
 
-.swiper.swiperTwo{
+.vertical{
         display:none;
     }
 
@@ -234,6 +234,10 @@ hr{
 }
 
 @media only screen and (max-width: 600px) {
+    .top,.bottom{
+        z-index: -5;
+    }
+
     .switch{
         left:50%
     }
@@ -242,22 +246,18 @@ hr{
         display: none;
     }
 
-    .swiper-slide {
-        background: none;
-    }
-
-     .swiper.swiperTwo{
-        display: block;
-        position: absolute;
-        height: 1450px;
-        width: 275px;
-        top:-60px;
-        margin:0 auto;
+    .vertical{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:100%;
     }
 
     .white,.non-white{
         height: 390px;
         width: 275px;
+        border-radius: 10px;
     }
 
     .head,.head-dark,.info{
