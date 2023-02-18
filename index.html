@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Pricing Component with Toggle Master</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <div class="top">
+    <img src="./images/bg-top.svg" alt="">
+  </div>
+  <div class="bottom">
+    <img src="./images/bg-bottom.svg" alt="">
+  </div>
+
+  <div class="container">
+    <div class="switch">
+      <div class="button-heading">
+        Our Pricing
+      </div>
+
+      <div class="button">
+        Annually
+        <input class="toggler" type="checkbox">
+        Monthly
+      </div>
+    </div>
+
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="white">
+                  <div class="head-dark">
+                    Basic
+                    <div class="rate">
+                      <span class="dollar dark">&dollar;</span><span class="number basic">199.99</span>
+                    </div>
+                  </div>
+                    <div class="info">
+                      <hr class="dark-line">
+                      500 GB Storage
+                      <hr class="dark-line">
+                      2 Users Allowed
+                      <hr class="dark-line">
+                      Send up to 3 GB
+                      <hr class="dark-line">
+                      <button class="learn blue">LEARN MORE</button>
+                    </div>
+                  </div><!-- end of white -->
+              </div>
+              <div class="swiper-slide">
+                <div class="non-white">
+                  <div class="head">
+                    Professional
+                    <div class="rate">
+                      <span class="dollar">&dollar;</span><span class="number professional">249.99</span>
+                    </div>
+                  </div>
+                    <div class="info">
+                      <hr>
+                      1 TB Storage
+                      <hr>
+                      5 Users Allowed
+                      <hr>
+                      Send up to 10 GB
+                      <hr>
+                      <button class="learn">LEARN MORE</button>
+                    </div>
+                  </div> <!-- end of non-white -->
+              </div>
+              <div class="swiper-slide">
+                <div class="white">
+                  <div class="head-dark">
+                    Master
+                    <div class="rate">
+                      <span class="dollar dark">&dollar;</span><span class="number master">399.99</span>
+                    </div>
+                  </div>
+                    <div class="info">
+                      <hr class="dark-line">
+                      2 TB Storage
+                      <hr class="dark-line">
+                      10 Users Allowed
+                      <hr class="dark-line">
+                      Send up to 20 GB
+                      <hr class="dark-line">
+                      <button class="learn blue">LEARN MORE</button>
+                    </div>
+                  </div><!-- end of white -->
+                </div>
+            </div> <!-- end of swiper-wrapper -->
+          </div> <!-- end of swiper -->
+
+          <div class="swiper swiperTwo">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="white">
+                  <div class="head-dark">
+                    Basic
+                    <div class="rate">
+                      <span class="dollar dark">&dollar;</span><span class="number basic">199.99</span>
+                    </div>
+                  </div>
+                    <div class="info">
+                      <hr class="dark-line">
+                      500 GB Storage
+                      <hr class="dark-line">
+                      2 Users Allowed
+                      <hr class="dark-line">
+                      Send up to 3 GB
+                      <hr class="dark-line">
+                      <button class="learn blue">LEARN MORE</button>
+                    </div>
+                  </div><!-- end of white -->
+              </div>
+              <div class="swiper-slide">
+                <div class="non-white">
+                  <div class="head">
+                    Professional
+                    <div class="rate">
+                      <span class="dollar">&dollar;</span><span class="number professional">249.99</span>
+                    </div>
+                  </div>
+                    <div class="info">
+                      <hr>
+                      1 TB Storage
+                      <hr>
+                      5 Users Allowed
+                      <hr>
+                      Send up to 10 GB
+                      <hr>
+                      <button class="learn">LEARN MORE</button>
+                    </div>
+                  </div> <!-- end of non-white -->
+              </div>
+              <div class="swiper-slide">
+                <div class="white">
+                  <div class="head-dark">
+                    Master
+                    <div class="rate">
+                      <span class="dollar dark">&dollar;</span><span class="number master">399.99</span>
+                    </div>
+                  </div>
+                    <div class="info">
+                      <hr class="dark-line">
+                      2 TB Storage
+                      <hr class="dark-line">
+                      10 Users Allowed
+                      <hr class="dark-line">
+                      Send up to 20 GB
+                      <hr class="dark-line">
+                      <button class="learn blue">LEARN MORE</button>
+                    </div>
+                  </div><!-- end of white -->
+                </div>
+            </div> <!-- end of swiper-wrapper -->
+          </div> <!-- end of swiper -->
+  </div> <!-- end of container -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
